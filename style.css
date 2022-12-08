@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+main {
+    width: 50%;
+    height: 68%;
+    display: flex;
+    border-radius: 7px;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+video {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#vbtn {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#vbtn p {
+    margin-left: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+#vprogressbar {
+    width: 320px;
+    height: 15px;
+    margin-left: 20px;
+}
+
+p:hover {
+    cursor: pointer;
+}
